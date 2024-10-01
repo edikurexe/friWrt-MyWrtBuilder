@@ -48,17 +48,8 @@ PACKAGES+=" luci-app-adguardhome ca-certificates ca-bundle tar unzip bind-tools"
 PACKAGES+=" luci-app-diskman luci-app-hd-idle luci-app-disks-info smartmontools kmod-usb-storage kmod-usb-storage-uas ntfs-3g"
 PACKAGES+=" samba4-server luci-app-samba4 aria2 ariang luci-app-aria2 luci-app-tinyfm"
 
-# Docker
-PACKAGES+=" docker docker-compose dockerd luci-app-dockerman"
-
 # Bandwidth And Network Monitoring
 PACKAGES+=" internet-detector luci-app-internet-detector internet-detector-mod-modem-restart nlbwmon luci-app-nlbwmon vnstat2 vnstati2 luci-app-vnstat2 luci-app-netmonitor"
-
-# Speedtest
-PACKAGES+=" librespeed-go python3-speedtest-cli iperf3 luci-app-netspeedtest"
-
-# Base64 Encode Decode
-PACKAGES+=" luci-app-base64"
 
 # Argon Theme
 PACKAGES+=" luci-theme-argon luci-app-argon-config"
